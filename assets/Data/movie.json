@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "title":"Stranger Things",
+        "year":2022,
+        "description":"When a young boy disappears, his friends and family uncover mysterious supernatural events in their town.",
+        "genre":[
+             "Sci-Fi",
+             "Drama",
+             "Thriller"
+        ],
+         "poster": "https://i.pinimg.com/736x/91/17/75/9117751636528b25a7b4687cab63572d.jpg",
+    "banner": "https://i.pinimg.com/736x/15/49/fe/1549fe856d6bf03f55cd47e18ee9acde.jpg",
+    "isRecentlyAdded":true
+    },
+     {
+    "id": 2,
+    "title": "Money Heist",
+    "year": 2021,
+    "description": "A criminal mastermind known as the Professor plans an ambitious heist with a carefully selected group of criminals.",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://i.pinimg.com/1200x/6e/42/0b/6e420b7bd2a65359258ee4c5ee1501dd.jpg",
+    "banner": "https://i.pinimg.com/736x/53/7a/d3/537ad30caf1c8152d8eb6520c2ed4844.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 3,
+    "title": "Dark",
+    "year": 2020,
+    "description": "A missing child leads four families into a mystery that spans generations and reveals a complex connection between time and fate.",
+    "genre": [
+      "Sci-Fi",
+      "Mystery",
+      "Thriller"
+    ],
+    "poster": "https://i.pinimg.com/736x/08/31/c1/0831c1e18464d1912ae2ff75cecb73ef.jpg",
+    "banner": "https://i.pinimg.com/736x/34/86/d5/3486d569462edfd52c3638841a7835ac.jpg",
+    "isRecentlyAdded": true
+  }
+]

@@ -1,16 +1,24 @@
-# netflix_clone
+# Netflix Clone — Project Description
 
-A new Flutter project.
+A Netflix-inspired mobile streaming application built using **Flutter and Dart**, designed to provide a modern movie and TV-show browsing experience. The app includes a responsive UI, movie categories, recently added content, movie details, trailers, and interactive screens.
 
-## Getting Started
+### Key Features
 
-This project is a starting point for a Flutter application.
+* 🎬 Netflix-inspired modern UI
+* 🏠 Home screen with movie categories and recommendations
+* 🔥 Recently Added section
+* 🎞️ Movie and TV-show details
+* ▶️ Trailer/video playback
+* 🔍 Movie browsing and search
+* 📱 Responsive mobile design
+* ✨ Animated splash screen and UI transitions
+* 📦 Movie data managed using JSON
+* 🧩 Reusable Flutter widgets and components
 
-A few resources to get you started if this is your first Flutter project:
+### Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Flutter • Dart • JSON • REST/API Integration • Video Playback • YouTube Trailers**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Project Objective
+
+The main objective of this project is to recreate the core experience of a modern streaming platform while improving practical skills in **Flutter UI development, animations, media handling, JSON data management, and application architecture**.

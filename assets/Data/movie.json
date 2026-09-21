@@ -1,20 +1,6 @@
 [
-    {
-        "id":1,
-        "title":"Stranger Things",
-        "year":2022,
-        "description":"When a young boy disappears, his friends and family uncover mysterious supernatural events in their town.",
-        "genre":[
-             "Sci-Fi",
-             "Drama",
-             "Thriller"
-        ],
-         "poster": "https://i.pinimg.com/736x/91/17/75/9117751636528b25a7b4687cab63572d.jpg",
-    "banner": "https://i.pinimg.com/736x/15/49/fe/1549fe856d6bf03f55cd47e18ee9acde.jpg",
-    "isRecentlyAdded":true
-    },
-     {
-    "id": 2,
+  {
+    "id": 1,
     "title": "Money Heist",
     "year": 2021,
     "description": "A criminal mastermind known as the Professor plans an ambitious heist with a carefully selected group of criminals.",
@@ -23,12 +9,13 @@
       "Drama",
       "Thriller"
     ],
-    "poster": "https://i.pinimg.com/1200x/6e/42/0b/6e420b7bd2a65359258ee4c5ee1501dd.jpg",
-    "banner": "https://i.pinimg.com/736x/53/7a/d3/537ad30caf1c8152d8eb6520c2ed4844.jpg",
-    "isRecentlyAdded": true
+    "poster": "https://i.pinimg.com/1200x/7c/99/53/7c995367709297b5535ae522d05eb9a5.jpg",
+    "banner": "https://i.pinimg.com/1200x/7c/99/53/7c995367709297b5535ae522d05eb9a5.jpg",
+    "isRecentlyAdded": true,
+    "isAwardwinningseries" : true
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Dark",
     "year": 2020,
     "description": "A missing child leads four families into a mystery that spans generations and reveals a complex connection between time and fate.",
@@ -37,8 +24,294 @@
       "Mystery",
       "Thriller"
     ],
-    "poster": "https://i.pinimg.com/736x/08/31/c1/0831c1e18464d1912ae2ff75cecb73ef.jpg",
-    "banner": "https://i.pinimg.com/736x/34/86/d5/3486d569462edfd52c3638841a7835ac.jpg",
+    "poster": "https://i.pinimg.com/736x/3b/db/28/3bdb282a9c27da8456800eca8cc5c578.jpg",
+    "banner": "https://i.pinimg.com/736x/3b/db/28/3bdb282a9c27da8456800eca8cc5c578.jpg",
+    "onlyOnNetflix":true,
+    "isAwardwinningseries" : true
+  },
+  {
+    "id": 3,
+    "title": "Stranger Things",
+    "year": 2022,
+    "description": "When a young boy disappears, his friends and family uncover mysterious supernatural events in their town.",
+    "genre": [
+      "Sci-Fi",
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://i.pinimg.com/236x/da/02/ce/da02ce9242c018e4b52dfe3bfb56c132.jpg",
+    "banner": "https://i.pinimg.com/236x/da/02/ce/da02ce9242c018e4b52dfe3bfb56c132.jpg",
+    "onlyOnNetflix":true,
+    "isAwardwinningseries" : true
+  },
+  {
+    "id": 4,
+    "title": "Kallata Kusthi",
+    "year": 2025,
+    "description": "A story filled with comedy, drama and unexpected situations.",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/1200x/fd/7b/ad/fd7bada327cd232e7c55fd45b1b70bfe.jpg",
+    "banner": "https://i.pinimg.com/1200x/be/ca/05/beca05d9fa29b790adf5274c4102a481.jpg",
     "isRecentlyAdded": true
+  },
+  {
+    "id": 5,
+    "title": "Con City",
+    "year": 2025,
+    "description": "A group of people face unexpected situations while trying to navigate their complicated lives.",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/736x/f3/1f/1a/f31f1a0b1cf2e3bbf48004db5c9178d5.jpg",
+    "banner": "https://i.pinimg.com/1200x/5d/12/fb/5d12fbcb5b109e4c63562d82dd2d16b8.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 6,
+    "title": "Dhurandhar",
+    "year": 2025,
+    "description": "An intense action story filled with danger, missions and powerful characters.",
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/1200x/15/c4/1e/15c41e7cd017b33b4aea4ea0cfa5ff90.jpg",
+    "banner": "https://i.pinimg.com/1200x/15/c4/1e/15c41e7cd017b33b4aea4ea0cfa5ff90.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 7,
+    "title": "Idhayam Murali",
+    "year": 2025,
+    "description": "A romantic drama about relationships, emotions and unexpected moments in life.",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/736x/6d/9e/2d/6d9e2d9de8890697bea621b25c418f90.jpg",
+    "banner": "https://i.pinimg.com/736x/20/ff/52/20ff52fd556477bdd5b632ab723023f3.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 8,
+    "title": "Enola Holmes 3",
+    "year": 2026,
+    "description": "Enola Holmes takes on another mysterious case and uses her intelligence to uncover the truth.",
+    "genre": [
+      "Mystery",
+      "Adventure",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/736x/2f/5e/97/2f5e97f08a0c3cd94d78854854370f44.jpg",
+    "banner": "https://i.pinimg.com/1200x/d8/58/23/d8582360e39bf63fffcf5b7d83deb6d5.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 9,
+    "title": "Blast",
+    "year": 2025,
+    "description": "An action thriller involving danger, unexpected events and a race against time.",
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "poster": "https://i.pinimg.com/736x/48/73/be/4873bee7a8480c36f00b9ae7777b8c64.jpg",
+    "banner": "https://i.pinimg.com/1200x/87/fb/cc/87fbcc977f3e7570dd2186b7a11388cb.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 10,
+    "title": "Peddi",
+    "year": 2026,
+    "description": "An action drama following a powerful character through challenging circumstances.",
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/736x/8d/6c/fd/8d6cfdbe7de3ac7c161e3bbd5f19ecae.jpg",
+    "banner": "https://i.pinimg.com/736x/8d/6c/fd/8d6cfdbe7de3ac7c161e3bbd5f19ecae.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 11,
+    "title": "Spider-Man: Far From Home",
+    "year": 2019,             
+    "description": "Peter Parker travels across Europe with his classmates but finds himself facing a new threat.",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "poster": "https://i.pinimg.com/1200x/f5/aa/c5/f5aac5d118c7f43a383a0ab608268481.jpg",
+    "banner": "https://i.pinimg.com/1200x/f5/aa/c5/f5aac5d118c7f43a383a0ab608268481.jpg",
+    "isRecentlyAdded": false
+  },
+  {
+    "id": 12,
+    "title": "Spooky in Love",
+    "year": 2025,
+    "description": "A romantic story with spooky situations, unexpected encounters and plenty of fun.",
+    "genre": [
+      "Romance",
+      "Comedy",
+      "Fantasy"
+    ],
+    "poster": "https://i.pinimg.com/1200x/81/3b/10/813b102e64ba4f71a7c9cf4ef0938fb1.jpg",
+    "banner": "https://i.pinimg.com/1200x/0a/8f/e5/0a8fe5af6e80c5417daa8f741f240f2c.jpg",
+    "isRecentlyAdded": true
+  },
+  {
+    "id": 13,
+    "title": "Ikka",
+    "year": 2025,
+    "description": "A dramatic story centered around family, relationships and difficult choices.",
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "poster": "https://i.pinimg.com/1200x/96/6e/8a/966e8afdb5f4dfdb83fb0ae03e8e1cf3.jpg",
+    "banner": "https://i.pinimg.com/1200x/e2/fa/72/e2fa7287781da5eb4a4ddb99d9c660f9.jpg",
+    "isRecentlyAdded": true
+  },
+
+
+  
+  {
+    "id": 14,
+    "title": "Alpha",
+    "year": 2018,
+    "description": "A young man forms an unexpected bond with a wolf while trying to survive in the wilderness.",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Survival"
+    ],
+    "poster": "https://i.pinimg.com/736x/b4/93/21/b49321cd73894b4eed1acf05b6a06df1.jpg",
+    "banner": "https://i.pinimg.com/1200x/cd/f9/9c/cdf99ccfeaf6887b3f8380fe085ed5fa.jpg",
+    "isRecentlyAdded": false,
+    "isOnlyOnNetflix": false,
+    "isTop10": true
+  },
+  {
+    "id": 15,
+    "title": "Grand Theft Auto VI: An Extended Look",
+    "year": 2025,
+    "description": "An extended look at the world, characters and action of Grand Theft Auto VI.",
+    "genre": [
+      "Action",
+      "Crime",
+      "Adventure"
+    ],
+    "poster": "https://i.pinimg.com/736x/dc/2c/53/dc2c5376ce1b9df04b156fa660d185e4.jpg",
+    "banner": "https://i.pinimg.com/736x/dc/2c/53/dc2c5376ce1b9df04b156fa660d185e4.jpg",
+    "isTop10": true
+  },
+  {
+    "id": 16,
+    "title": "The Whisper Man",
+    "year": 2025,
+    "description": "A dark and suspenseful thriller involving mysterious crimes and disturbing secrets.",
+    "genre": [
+      "Thriller",
+      "Mystery",
+      "Crime"
+    ],
+    "poster": "https://i.pinimg.com/1200x/9f/5e/05/9f5e0535b803391eb2d88de0b2cc635c.jpg",
+    "banner": "https://i.pinimg.com/736x/ed/3b/57/ed3b57fa5a82c41ce66716d0c9c50e72.jpg",
+    "isTop10": true
+  },
+  {
+    "id": 17,
+    "title": "The Secret Woman",
+    "year": 2025,
+    "description": "A mysterious woman hides secrets that slowly begin to change everything around her.",
+    "genre": [
+      "Thriller",
+      "Mystery",
+      "Drama"
+    ],
+    "poster": "https://i.pinimg.com/736x/0f/89/96/0f89962d3026674ca8e2afb057b8d127.jpg",
+    "banner": "https://i.pinimg.com/736x/0f/89/96/0f89962d3026674ca8e2afb057b8d127.jpg",
+    "isTop10": true
+  },
+  {
+    "id": 18,
+    "title": "Facing El Chapo",
+    "year": 2025,
+    "description": "A crime-focused story exploring dangerous encounters and powerful criminal networks.",
+    "genre": [
+      "Crime",
+      "Documentary",
+      "Thriller"
+    ],
+    "poster": "https://i.pinimg.com/1200x/46/11/db/4611dbc9917365d25781368b70ed6b0b.jpg",
+    "banner": "https://i.pinimg.com/1200x/46/11/db/4611dbc9917365d25781368b70ed6b0b.jpg",
+    "isTop10": true
+  },
+  {
+    "id": 19,
+    "title": "The Last House",
+    "year": 2025,
+    "description": "A tense story centered around a mysterious house and the secrets hidden inside it.",
+    "genre": [
+      "Thriller",
+      "Horror",
+      "Mystery"
+    ],
+    "poster": "https://i.pinimg.com/1200x/5a/3d/c5/5a3dc51079e788a92e4eee70d19b98cd.jpg",
+    "banner": "https://i.pinimg.com/736x/27/0e/ff/270eff92c569c15384495698f676144e.jpg",
+    "isRecentlyAdded": true,
+    "isOnlyOnNetflix": true,
+    "isTop10": true
+  },
+  {
+    "id": 20,
+    "title": "Don't Say Good Luck",
+    "year": 2025,
+    "description": "A dramatic story filled with unexpected events and difficult choices.",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "poster": "https://i.pinimg.com/736x/d7/60/82/d76082e89a590a1cb6bd5d821c3a5224.jpg",
+    "banner": "https://i.pinimg.com/736x/52/45/d1/5245d1c3df956032a918a8c7eb940f02.jpg",
+    "isTop10": true
+  },
+  {
+    "id": 21,
+    "title": "The Angry Birds Movie 2",
+    "year": 2019,
+    "description": "The birds and pigs must work together when a new threat puts their islands in danger.",
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Adventure"
+    ],
+    "poster": "https://i.pinimg.com/1200x/a1/99/63/a19963b5a167f1e0cf5e2b0a65c07047.jpg",
+    "banner": "https://i.pinimg.com/736x/4c/71/8f/4c718f6ca39c53ae680dc809ec75b3ad.jpg",
+    "isTop10": true
+  },
+  
+  {
+    "id": 22,
+    "title": "Abigail",
+    "year": 2024,
+    "description": "A group of kidnappers discover that their young captive is far more dangerous than expected.",
+    "genre": [
+      "Horror",
+      "Thriller",
+      "Mystery"
+    ],
+    "poster": "https://i.pinimg.com/736x/59/b9/ce/59b9ce6bafe9ebf0878272a73e59554b.jpg",
+    "banner": "https://i.pinimg.com/736x/46/b9/80/46b980a4265ca24b954b1f4243a40576.jpg",
+    "isRecentlyAdded": false,
+    "isOnlyOnNetflix": false,
+    "isTop10": true
   }
+  
 ]

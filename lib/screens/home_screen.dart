@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix_clone/screens/dashboard_screen.dart';
 import 'package:netflix_clone/screens/download_screen.dart';
+import 'package:netflix_clone/screens/profile_screen.dart';
 import 'package:netflix_clone/screens/select_screen.dart';
 import 'package:netflix_clone/screens/notification_screen.dart';
-import 'package:netflix_clone/screens/splash_screen.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -19,12 +20,13 @@ class _HomeScreenState extends State<HomeScreen> {
          DashboardScreen(),
          NotificationScreen(),
         SelectScreen(),
-         SplashScreen(),
+         ProfileScreen(),
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-appBar: AppBar(
+appBar:  selectedIndex == 0
+ ? AppBar(
   backgroundColor: const Color.fromARGB(255, 24, 24, 24),
   
   leading: Image.asset('assets/images/Netflixlogo.png', fit: BoxFit.contain),
@@ -53,7 +55,8 @@ appBar: AppBar(
     ),
     
   ],
-),
+)
+:null,
 body: screens[selectedIndex],
 bottomNavigationBar: BottomNavigationBar(
   backgroundColor: const Color.fromARGB(255, 24, 24, 24),

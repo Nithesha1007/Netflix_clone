@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
        primaryColor: Color(0xFFE50914),
-       scaffoldBackgroundColor: const Color.fromARGB(255, 24, 24, 24),
+       scaffoldBackgroundColor: const Color.fromARGB(111, 0, 0, 0),
+       
       ),
       debugShowCheckedModeBanner: false,
       home: SplashScreen(),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:netflix_clone/Models/movie_model.dart';
-import 'package:netflix_clone/screens/movie_details_screen.dart';
-import 'package:netflix_clone/service/Movie_service.dart';
+import 'package:netflix_clone/Moviecard/only_on_netflix.dart';
+import 'package:netflix_clone/Moviecard/recently_added.dart';
+
 
 
 class DashboardScreen extends StatefulWidget {
@@ -36,109 +36,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
     "Anime",
   ];
 // ---------- Recently Added section (JSON-la irundhu load aagum) ----------
-  Widget recentlyAddedSection() {
-    return FutureBuilder<List<MovieModel>>(
-      future: MovieService.getRecentlyAddedMovies(),
-      builder: (context, snapshot) {
-        // Loading state
-        if (snapshot.connectionState == ConnectionState.waiting) {
-          return const SizedBox(
-            height: 220,
-            child: Center(child: CircularProgressIndicator()),
-          );
-        }
  
-        // Error state
-        if (snapshot.hasError) {
-          return const SizedBox(
-            height: 100,
-            child: Center(
-              child: Text(
-                "Failed to load movies",
-                style: TextStyle(color: Colors.white),
-              ),
-            ),
-          );
-        }
  
-        final movies = snapshot.data ?? [];
- 
-        // Empty state
-        if (movies.isEmpty) return const SizedBox();
-        return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(padding: EdgeInsets.symmetric(horizontal: 16),
-          child: Text("Recently Added",
-          style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 21,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-          ),
-          const SizedBox(height: 12),
-          SizedBox(
-            height: 220,
-            child: ListView.builder(
-              scrollDirection: Axis.horizontal,
-              padding: EdgeInsets.symmetric(horizontal: 12),
-              itemCount: movies.length,
-              itemBuilder: (context, index) {
-                final movie =movies[index];
-                return GestureDetector(
-                  onTap: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> MovieDetailsScreen(movie: movie),),
-                    );
-                  },
-                  child: Stack(
-                    children: [
-                  Container(
-                      width: 145,
-                      margin: EdgeInsets.symmetric(horizontal: 5),
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(8),
-                        child: Image.network(
-                          movie.poster,
-                          width: 145,
-                          height: 220,
-                          fit: BoxFit.cover,
-                          errorBuilder: (context, error, stackTrace) {
-                            return Container(
-                              color: Colors.grey[900],
-                              child: Icon(Icons.broken_image, color:Colors.white,)
-                            );
-                          },
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      bottom: 0,
-                      child: Container(
-                        alignment: Alignment.center,
-                        height: 15,
-                        width: 70,
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-                        ),
-                        child: Text("Recently Added", style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                        ),),
-                      )
-                      ),
-                    ]
-                  ),
-                );
-              },
-            ),
-          )
-
-        ],
-        );
-      },
-    );
-  }
+            
 void _openCategoryPanel(){
    Navigator.push(
                           context,
@@ -343,7 +243,11 @@ void _openCategoryPanel(){
                   ),
                 ],
               ),
-              
+                const SizedBox(height: 20,),
+                 RecentlyAdded(),
+                  const SizedBox(height: 20,),
+                 
+                //const SizedBox(height: 20,),
               const SizedBox(height: 3),
               const Padding(
                 padding: EdgeInsets.only(right: 45.0),
@@ -409,9 +313,11 @@ void _openCategoryPanel(){
                   },
                 ),
               ),
-              const SizedBox(height: 20,),
-              recentlyAddedSection(),
+            
               const SizedBox(height: 25,),
+              OnlyOnNetflix(),
+              const SizedBox(height: 20,),
+           //  TopTen(),
             ],
           ),
           

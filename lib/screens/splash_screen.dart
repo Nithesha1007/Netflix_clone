@@ -1,7 +1,4 @@
-
-
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix_clone/screens/select_screen.dart';
@@ -45,7 +42,6 @@ return Scaffold(
           child: TweenAnimationBuilder<int>(
             tween: IntTween(begin: 0, end: 7),
             duration: const Duration(milliseconds: 2800),
-            
             builder: (context, value, child) {
               return Text(
                 "NETFLIX".substring(0,value),

@@ -1,5 +1,3 @@
-
-
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
@@ -42,4 +40,22 @@ static Future<List<MovieModel>> getRecentlyAddedMovies() async{
   return movies.where((movie)=> movie.isRecentlyAdded
   ).toList();
 }
+
+static Future<List<MovieModel>> getOnlyOnNetflixMovies() async{
+  final movies = await loadMovies();
+  return movies.where((movie) => movie.onlyOnNetflix
+  ).toList();
+}
+
+static Future<List<MovieModel>> isTop10() async {
+  final movies = await loadMovies();
+  return movies.where((movie) => movie.isTop10
+  ).toList();
+}
+static Future<List<MovieModel>> isAwardwinningseries() async{
+  final movies = await loadMovies();
+  return movies.where((movie) => movie.isAwardwinningseries
+  ).toList();
+}
+
 }

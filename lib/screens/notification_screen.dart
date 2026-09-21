@@ -35,7 +35,7 @@ Widget build(BuildContext context)
                 ],
               ),
               ListTile(
-                 leading: Image.network(Widget.),
+                 //leading: Image.network(Widget.),
                  title: Text(""),
                  subtitle: Text(""),
                  isThreeLine: true,
